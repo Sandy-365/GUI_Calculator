@@ -163,7 +163,7 @@ if __name__ == "__main__":
     buttonadd=Button(master=frame1,text="0",font="calibari 20 bold",width=400,height=200,bg='white',fg='black',relief="raised",borderwidth=10,command=lambda:getnum("0")) 
     buttonadd.grid(row=4,column=0)
 
-    buttoncut=Button(master=frame1,text="❌",font="calibari 20 bold",width=400,height=200,bg='pink',fg='black',relief="raised",borderwidth=10,command=lambda:cut()) 
+    buttoncut=Button(master=frame1,text="X",font="calibari 23 bold",width=400,height=200,bg='pink',fg='black',relief="raised",borderwidth=10,command=lambda:cut()) 
     buttoncut.grid(row=4,column=1)
 
     buttoneq=Button(master=frame1,text="=",font="calibari 20 bold",width=400,height=200,bg='orange',fg='black',relief="raised",borderwidth=10,command=lambda:geteq()) 
